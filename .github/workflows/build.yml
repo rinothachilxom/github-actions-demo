@@ -47,5 +47,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
+          file: ./Dockerfile
           push: true
           tags: rinothachil/demo-apps:latest
